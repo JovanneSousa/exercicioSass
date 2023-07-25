@@ -17,6 +17,9 @@
     .products{
         @include dBlock();
     }
+    .container {
+        max-width: 80%;
+    }
     .product-item{
         margin-bottom: 32px;
     }
