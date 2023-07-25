@@ -1,0 +1,23 @@
+@use '../config/var';
+
+@mixin dBlock(){
+    display: block;
+}
+
+@media screen and (max-width: var.$tablet){
+    .container{
+        max-width: 80%;
+    }
+    .products{
+        grid-template-columns: repeat(2, 48.5%);
+        column-gap: 3%;
+    }
+}
+@media screen and (max-width: var.$mobile){
+    .products{
+        @include dBlock();
+    }
+    .product-item{
+        margin-bottom: 32px;
+    }
+}
