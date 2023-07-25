@@ -1,10 +1,7 @@
 @use 'config/reset';
 @use 'config/var';
 @use 'modules/header';
-
 @use 'modules/prod';
-
-@use 'modules/media';
 
 @mixin dFlex(){
     display: flex;
@@ -33,6 +30,23 @@ li{
             color: white;
             text-decoration: none;
         }
+    }
+}
+@media screen and (max-width: var.$tablet){
+    .container{
+        max-width: 80%;
+    }
+    .products{
+        grid-template-columns: repeat(2, 48.5%);
+        column-gap: 3%;
+    }
+}
+@media screen and (max-width: var.$mobile){
+    .products{
+        @include dBlock();
+    }
+    .product-item{
+        margin-bottom: 32px;
     }
 }
 
