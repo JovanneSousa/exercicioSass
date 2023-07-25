@@ -5,32 +5,6 @@
   font-family: Roboto, "sans-serif";
 }
 
-body {
-  background-color: #f5f6fa;
-}
-
-.container {
-  max-width: 1024px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-li {
-  list-style: none;
-}
-
-.menu {
-  display: flex;
-}
-.menu li {
-  font-weight: bold;
-  margin-left: 24px;
-}
-.menu li a {
-  color: white;
-  text-decoration: none;
-}
-
 header {
   background-color: #182C61;
   position: sticky;
@@ -92,6 +66,31 @@ section {
   .product-item {
     margin-bottom: 32px;
   }
+}
+body {
+  background-color: #f5f6fa;
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+}
+.menu li {
+  font-weight: bold;
+  margin-left: 24px;
+}
+.menu li a {
+  color: white;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.css.map */
