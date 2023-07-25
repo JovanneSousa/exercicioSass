@@ -37,7 +37,7 @@ header {
   top: 0;
   left: 0;
 }
-header.container {
+header > .container {
   display: flex;
   justify-content: space-between;
   align-items: center;

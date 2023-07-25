@@ -35,7 +35,7 @@ header{
     position: sticky;
     top: 0;
     left: 0;
-    &.container{
+    &>.container{
         @include dFlex();
         justify-content: space-between;
         align-items: center;
